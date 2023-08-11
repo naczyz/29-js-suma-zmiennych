@@ -1,8 +1,8 @@
 let firstNumber = 10;
 let secoundNumber = 20;
 
-function multiply(firstNumber, secoundNumber) {
-  let result = firstNumber + secoundNumber;
+function multiply(num1, num2) {
+  let result = num1 + num2;
   return result;
 }
-console.log(multiply(10, 20));
+console.log(multiply(firstNumber, secoundNumber));
